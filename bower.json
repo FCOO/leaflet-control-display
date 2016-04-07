@@ -1,0 +1,37 @@
+{
+  "name": "leaflet-control-display",
+  "version": "0.1.0",
+  "homepage": "https://github.com/FCOO/leaflet-control-display",
+  "authors": [
+    "Niels Holt nho@fcoo.dk"
+  ],
+  "description": "",
+  "main": [
+    "dist/leaflet-control-display.min.js",
+    "dist/leaflet-control-display.min.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FCOO/leaflet-control-display.git"
+  },
+  "dependencies": {
+    "jquery": "latest",
+    "leaflet": "latest"
+  },
+  "devDependencies": {
+    "bourbon": "latest",
+    "modernizr-mixin": "latest",
+    "mathsass": "latest"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "es6"
+  ]
+}
