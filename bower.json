@@ -7,8 +7,7 @@
   ],
   "description": "",
   "main": [
-    "dist/leaflet-control-display.min.js",
-    "dist/leaflet-control-display.min.css"
+    "dist/leaflet-control-display.min.js"
   ],
   "repository": {
     "type": "git",
