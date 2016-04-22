@@ -1,5 +1,5 @@
 /****************************************************************************
-	leaflet-control-display.js, 
+	leaflet-control-display.js,
 
 	(c) 2016, FCOO
 
@@ -17,7 +17,7 @@
 		classNames = classNames.replace(" ", ",");
 		return classNames.split(',');
 	}
-	
+
 	//Extend base leaflet class
 	L.ControlDisplay = L.Class.extend({
 
@@ -35,12 +35,12 @@
 		//initialize
 		initialize: function(options) {
 			L.setOptions(this, options);
-			
+
 			this.controlGroups = {};
 			this.allControlClasses = [];
 			for (var i=0; i<this.options.groups.length; i++ )
 				this.add( this.options.groups[i].id, this.options.groups[i].classNames );
-			
+
 		},
 
 		//add
@@ -56,14 +56,14 @@
 
 		//hide
 		hide: function( id ){ this._hideOrShow( id, false ); },
-		
+
 
 		//_hideOrShow
 		_hideOrShow: function( id, show ){
 			var $controls,
 					groupSelector,
 					classNames,
-					idList = classNamesToArray( id ),				
+					idList = classNamesToArray( id ),
 					i, j;
 			for (i=0; i<idList.length; i++ ){
 				$controls = $( this.options.controlSelector );
@@ -77,12 +77,12 @@
 				else
 					if (id == 'REST'){
 						for (j=0; j<this.allControlClasses.length; j++ )
-							$controls = $controls.filter(':not(.'+this.allControlClasses[j]+')');		
+							$controls = $controls.filter(':not(.'+this.allControlClasses[j]+')');
 					}
 					else {
 						for (j=0; j<classNames.length; j++ )
-							groupSelector = (groupSelector ? ',' : '') + '.'+classNames[j];			
-						$controls = $controls.filter(groupSelector);		
+							groupSelector += (groupSelector ? ',' : '') + '.'+classNames[j];
+						$controls = $controls.filter(groupSelector);
 					}
 
 				if (show)
