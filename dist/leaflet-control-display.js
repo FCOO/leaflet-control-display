@@ -23,7 +23,7 @@
 
     //Default options
 		options: {
-			VERSION					: "0.1.2",
+			VERSION					: "0.2.0",
 			controlSelector	: ".leaflet-control-container .leaflet-control",
 			groups          : [	{id:'zoom',					classNames:'leaflet-control-zoom'},
 													{id:'attribution',	classNames:'leaflet-control-attribution'},
@@ -52,14 +52,39 @@
 		},
 
 		//show
-		show: function( id ){ this._hideOrShow( id, true ); },
+		show: function( id ){ this._eachControls( id, function( $controls ){ $controls.show(); }) },
 
 		//hide
-		hide: function( id ){ this._hideOrShow( id, false ); },
+		hide: function( id ){ this._eachControls( id, function( $controls ){ $controls.hide(); }) },
+
+
+		//containerAddClass( id, classNames ) - Add classNames to the containers of all controls in group id
+		containerAddClass: function( id, classNames ){
+			this._eachControls( 
+				id, 
+				function( $controls, classNames ){ 
+					if ($controls._container)
+						L.DomUtil.addClass($controls._container, classNames);
+				},
+				classNames
+			);
+		},
+
+		//containerRemoveClass( id, classNames ) - Remove classNames to the containers of all controls in group id
+		containerRemoveClass: function( id, classNames ){
+			this._eachControls( 
+				id, 
+				function( $controls, classNames ){ 
+					if ($controls._container)
+						L.DomUtil.removeClass($controls._container, classNames);
+				},
+				classNames
+			);
+		},
 
 
 		//_hideOrShow
-		_hideOrShow: function( id, show ){
+		_eachControls: function( id, controlFunc, arg ){
 			var $controls,
 					groupSelector,
 					classNames,
@@ -85,10 +110,7 @@
 						$controls = $controls.filter(groupSelector);
 					}
 
-				if (show)
-					$controls.show();
-				else
-					$controls.hide();
+				controlFunc( $controls, arg );
 			}
 		}
 

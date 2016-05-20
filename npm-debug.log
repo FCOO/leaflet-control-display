@@ -1,0 +1,158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose install where, deps [ 'C:\\web-dev\\leaflet-control-display',
+5 verbose install   [ 'getobject',
+5 verbose install     'grunt-auto-install',
+5 verbose install     'grunt-bower-concat',
+5 verbose install     'grunt-continue',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-rename',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-exec',
+5 verbose install     'grunt-gitinfo',
+5 verbose install     'grunt-json-generator',
+5 verbose install     'grunt-jsonmin',
+5 verbose install     'grunt-prompt',
+5 verbose install     'grunt-sass',
+5 verbose install     'grunt-text-replace',
+5 verbose install     'load-grunt-tasks',
+5 verbose install     'main-bower-files',
+5 verbose install     'nopt',
+5 verbose install     'semver',
+5 verbose install     'shelljs',
+5 verbose install     'strip-json-comments',
+5 verbose install     'wordwrap' ] ]
+6 verbose install where, peers [ 'C:\\web-dev\\leaflet-control-display', [] ]
+7 info preinstall leaflet-control-display@0.1.2
+8 verbose already installed skipping grunt-exec@~0.4.6 C:\web-dev\leaflet-control-display
+9 verbose already installed skipping grunt-gitinfo@^0.1.7 C:\web-dev\leaflet-control-display
+10 verbose already installed skipping grunt-json-generator@^0.1.0 C:\web-dev\leaflet-control-display
+11 verbose already installed skipping grunt-jsonmin@~0.2.4 C:\web-dev\leaflet-control-display
+12 verbose already installed skipping grunt-prompt@~1.3.3 C:\web-dev\leaflet-control-display
+13 verbose already installed skipping grunt-sass@~1.1.0 C:\web-dev\leaflet-control-display
+14 verbose already installed skipping grunt-text-replace@~0.4.0 C:\web-dev\leaflet-control-display
+15 verbose already installed skipping load-grunt-tasks@~3.4.0 C:\web-dev\leaflet-control-display
+16 verbose already installed skipping main-bower-files@~2.11.1 C:\web-dev\leaflet-control-display
+17 verbose already installed skipping nopt@^3.0.6 C:\web-dev\leaflet-control-display
+18 verbose already installed skipping semver@~5.1.0 C:\web-dev\leaflet-control-display
+19 verbose already installed skipping shelljs@^0.6.0 C:\web-dev\leaflet-control-display
+20 verbose already installed skipping strip-json-comments@~2.0.1 C:\web-dev\leaflet-control-display
+21 verbose already installed skipping wordwrap@^1.0.0 C:\web-dev\leaflet-control-display
+22 verbose already installed skipping getobject@~0.1.0 C:\web-dev\leaflet-control-display
+23 verbose already installed skipping grunt-auto-install@^0.3.0 C:\web-dev\leaflet-control-display
+24 verbose already installed skipping grunt-bower-concat@~1.0.0 C:\web-dev\leaflet-control-display
+25 verbose already installed skipping grunt-continue@^0.1.0 C:\web-dev\leaflet-control-display
+26 verbose already installed skipping grunt-contrib-clean@~1.0.0 C:\web-dev\leaflet-control-display
+27 verbose already installed skipping grunt-contrib-concat@~1.0.0 C:\web-dev\leaflet-control-display
+28 verbose already installed skipping grunt-contrib-copy@~1.0.0 C:\web-dev\leaflet-control-display
+29 verbose already installed skipping grunt-contrib-cssmin@~1.0.0 C:\web-dev\leaflet-control-display
+30 verbose already installed skipping grunt-contrib-jshint@~1.0.0 C:\web-dev\leaflet-control-display
+31 verbose already installed skipping grunt-contrib-rename@~0.0.3 C:\web-dev\leaflet-control-display
+32 verbose already installed skipping grunt-contrib-uglify@~1.0.0 C:\web-dev\leaflet-control-display
+33 silly install resolved []
+34 info build C:\web-dev\leaflet-control-display
+35 verbose linkStuff [ false, false, false, 'C:\\web-dev' ]
+36 info linkStuff leaflet-control-display@0.1.2
+37 verbose linkBins leaflet-control-display@0.1.2
+38 verbose linkMans leaflet-control-display@0.1.2
+39 verbose rebuildBundles leaflet-control-display@0.1.2
+40 verbose rebuildBundles [ '.bin',
+40 verbose rebuildBundles   'getobject',
+40 verbose rebuildBundles   'grunt',
+40 verbose rebuildBundles   'grunt-auto-install',
+40 verbose rebuildBundles   'grunt-bower-concat',
+40 verbose rebuildBundles   'grunt-continue',
+40 verbose rebuildBundles   'grunt-contrib-clean',
+40 verbose rebuildBundles   'grunt-contrib-concat',
+40 verbose rebuildBundles   'grunt-contrib-copy',
+40 verbose rebuildBundles   'grunt-contrib-cssmin',
+40 verbose rebuildBundles   'grunt-contrib-jshint',
+40 verbose rebuildBundles   'grunt-contrib-rename',
+40 verbose rebuildBundles   'grunt-contrib-uglify',
+40 verbose rebuildBundles   'grunt-exec',
+40 verbose rebuildBundles   'grunt-gitinfo',
+40 verbose rebuildBundles   'grunt-json-generator',
+40 verbose rebuildBundles   'grunt-jsonmin',
+40 verbose rebuildBundles   'grunt-prompt',
+40 verbose rebuildBundles   'grunt-sass',
+40 verbose rebuildBundles   'grunt-text-replace',
+40 verbose rebuildBundles   'load-grunt-tasks',
+40 verbose rebuildBundles   'main-bower-files',
+40 verbose rebuildBundles   'nopt',
+40 verbose rebuildBundles   'semver',
+40 verbose rebuildBundles   'shelljs',
+40 verbose rebuildBundles   'strip-json-comments',
+40 verbose rebuildBundles   'wordwrap' ]
+41 verbose rebuild bundle C:\web-dev\leaflet-control-display\node_modules\grunt
+42 info build C:\web-dev\leaflet-control-display\node_modules\grunt
+43 info preinstall grunt@1.0.1
+44 verbose linkStuff [ false,
+44 verbose linkStuff   false,
+44 verbose linkStuff   false,
+44 verbose linkStuff   'C:\\web-dev\\leaflet-control-display\\node_modules' ]
+45 info linkStuff grunt@1.0.1
+46 verbose linkBins grunt@1.0.1
+47 verbose link bins [ { grunt: 'bin/grunt' },
+47 verbose link bins   'C:\\web-dev\\leaflet-control-display\\node_modules\\.bin',
+47 verbose link bins   false ]
+48 verbose linkMans grunt@1.0.1
+49 verbose rebuildBundles grunt@1.0.1
+50 verbose rebuildBundles [ '.bin',
+50 verbose rebuildBundles   'coffee-script',
+50 verbose rebuildBundles   'dateformat',
+50 verbose rebuildBundles   'eventemitter2',
+50 verbose rebuildBundles   'exit',
+50 verbose rebuildBundles   'findup-sync',
+50 verbose rebuildBundles   'glob',
+50 verbose rebuildBundles   'grunt-cli',
+50 verbose rebuildBundles   'grunt-known-options',
+50 verbose rebuildBundles   'grunt-legacy-log',
+50 verbose rebuildBundles   'grunt-legacy-util',
+50 verbose rebuildBundles   'iconv-lite',
+50 verbose rebuildBundles   'js-yaml',
+50 verbose rebuildBundles   'minimatch',
+50 verbose rebuildBundles   'path-is-absolute',
+50 verbose rebuildBundles   'rimraf' ]
+51 info install grunt@1.0.1
+52 info postinstall grunt@1.0.1
+53 info install leaflet-control-display@0.1.2
+54 info postinstall leaflet-control-display@0.1.2
+55 info prepublish leaflet-control-display@0.1.2
+56 verbose stack Error: The package grunt does not satisfy its siblings' peerDependencies requirements!
+56 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:103:32
+56 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:225:5
+56 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:138:5
+56 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+56 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+56 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+56 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+56 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+56 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+56 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+57 verbose cwd C:\web-dev\leaflet-control-display
+58 error Windows_NT 6.1.7601
+59 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+60 error node v0.12.0
+61 error npm  v2.5.1
+62 error code EPEERINVALID
+63 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+63 error peerinvalid Peer grunt-auto-install@0.3.1 wants grunt@>=0.4.0
+63 error peerinvalid Peer grunt-bower-concat@1.0.0 wants grunt@>=0.4.0
+63 error peerinvalid Peer grunt-contrib-clean@1.0.0 wants grunt@>= 0.4.5
+63 error peerinvalid Peer grunt-contrib-concat@1.0.1 wants grunt@>=0.4.0
+63 error peerinvalid Peer grunt-contrib-jshint@1.0.0 wants grunt@>=0.4.0
+63 error peerinvalid Peer grunt-contrib-rename@0.0.3 wants grunt@~0.4.0
+63 error peerinvalid Peer grunt-exec@0.4.7 wants grunt@>=0.4
+63 error peerinvalid Peer grunt-gitinfo@0.1.8 wants grunt@>=0.4.0
+63 error peerinvalid Peer grunt-json-generator@0.1.0 wants grunt@~0.4.1
+63 error peerinvalid Peer grunt-jsonmin@0.2.4 wants grunt@~0.4.1
+64 verbose exit [ 1, true ]

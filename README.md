@@ -3,7 +3,7 @@
 
 
 ## Description
-Object to hide or show groups of leaflet controls
+Object to hide or show groups of leaflet controls and to add or remove class-names to the controls container
 
 ## Installation
 ### bower
@@ -43,6 +43,9 @@ The jQuery selector to get all controls
 	.hide('ALL') / .show('ALL') //Hide/show all controls
 	.hide('REST') / .show('REST') //Hide/show all controls not defined in options.groups or added with .add()
 
+	//Alter class-names for container - also for 'ALL' and 'REST'
+	.containerAddClass( id, classNames ) //Add classNames to the containers of all controls in group id
+	.containerRemoveClass( id, classNames ) //Remove classNames to the containers of all controls in group id
 
 ## Copyright and License
 This plugin is licensed under the [MIT license](https://github.com/FCOO/leaflet-control-display/LICENSE).
